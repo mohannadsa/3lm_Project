@@ -8,6 +8,6 @@ function sendEmail() {
   if (name === "" || subject === "" || message === "") {
     alert("Please Fill in all the fields");
   } else {
-    window.open('mailto:marwan.alghamdi@yahoo.com?subject=' + subject + '&body=' + body);
+    window.open('mailto:marwan.alghamdi@yahoo.com;mohannadsa1419@gmail.com;muhdkhamis1@gmail.com?subject=' + subject + '&body=' + body);
   }
 }
