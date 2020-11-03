@@ -1,0 +1,108 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+.row {
+  width: 100%;
+}
+/* Navbar */
+.first-section {
+  clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 53% 97%, 0 95%, 0% 70%, 0% 35%, 0 0);
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+/* Title */
+.big-heading {
+  font-family: "Ubuntu";
+  text-align: left;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+.second-heading{
+  font-family: "Montserrat-Black";
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.Title {
+  background-color: #F6F6F6;
+  margin: 0;
+}
+.Titles-text {
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+.title-image {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+/* How it works */
+
+.work-header {
+  margin-top: 10rem;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.work-title {
+  font-size: 1.5rem;
+}
+.work-box {
+  padding: 4.5%;
+}
+.icon {
+  color: black;
+  margin-bottom: 1rem;
+  width: 40px;
+  transition: transform .2s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+
+/* Contact Us  */
+#contact-us{
+  padding: 100px 0;
+}
+.Fourth-section {
+  clip-path: polygon(44% 5%, 100% 1%, 100% 43%, 100% 77%, 100% 100%, 0 100%, 0 79%, 0% 43%, 0 8%);
+  background-color: #F6F6F6;
+}
+.contact-form {
+  margin: 0 auto;
+}
+.form-control {
+  border-radius: 25px;
+}
+.textarea {
+  margin-top: 20px;
+}
+.button {
+  margin: 20px auto;
+}
